@@ -1,0 +1,29 @@
+.video {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    background-color: rgba(198, 249, 178, 0.484);
+    justify-content: center;
+    padding: 32px;
+    
+}
+.video--item {
+    display: flex;
+    background-color: aqua;
+    text-align: center;
+    line-height: 100px;
+    font-size: 32px;
+    color: red;
+    border: 2px solid rgb(0, 157, 255);
+}
+.video--item2, .video--item3 {
+    height: 500px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+.video--item3 {
+    width: 80%;
+}
+.video--item2 {
+    width: 20%;
+}

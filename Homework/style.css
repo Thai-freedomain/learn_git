@@ -1,0 +1,50 @@
+.container {
+    height: 660px;
+    width: 1010px;
+    background-image: linear-gradient(60deg, white, red, blue, violet, yellow) ;
+    padding: 30px 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+header {
+    /* height: 100px;
+    width: 810px;
+    background-color: white; */
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 0 #ccc;
+}
+footer {
+    /* height: 100px;
+    width: 810px;
+    background-color: #fff; */
+    clear: both;
+    margin: 5px 0 0 0;
+}
+footer, header {
+    height: 100px;
+    width: 810px;
+    background-color: white;
+}
+.sidebarA {
+    height: 300px;
+    width: 150px;
+    background-color: #fff;
+    float: left;
+}
+section {
+    height: 300px;
+    width: 500px;
+    background-color: #fff;
+    /* margin-left: 250px; */
+    float: left;
+    margin: 0 5px 5px 5px;
+}
+.sidebarB {
+    height: 300px;
+    width: 150px;
+    background-color: #fff;
+    float: right;
+}
+
+
